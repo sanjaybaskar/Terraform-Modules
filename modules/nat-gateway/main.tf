@@ -37,7 +37,7 @@ depends_on = [var.internet_gateway]
 
 resource "aws_nat_gateway" "nat_gateway_az2" {
     allocation_id = aws_eip.eip_for_nat_gateway_az2.id
-    subnet_id = var.var.public_subnet_az2_id
+    subnet_id = var.public_subnet_az2_id
 
     tags = {
         Name = "nat gateway az2"
