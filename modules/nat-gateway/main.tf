@@ -48,7 +48,7 @@ depends_on = [var.internet_gateway]
   
 }
 
-#create private route table az1 and add route through nat gateway
+#create private route table az1 and add route through nat gateway az1
 
 resource "aws_route_table" "private_route_table_az1" {
   vpc_id = var.vpc_id
