@@ -1,7 +1,7 @@
 # configue aws provider 
 provider "aws" {
   region = var.region
-  profile = "sanjay.baskar"
+  #profile = "terraform-user"
 }
 
 # create vpc
